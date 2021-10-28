@@ -6,13 +6,15 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Personal CSS-->
 	<link rel="stylesheet" type="text/css" href="style/desktop.css">
+	<!--Personal Mobile CSS-->
+	<link rel="stylesheet" type="text/css" href="style/mobile.css">
 	<!--Import materialize.css-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>NEFTLIX</title>
 </head>
 <body class="grey darken-3">
-	<header>
+	<header class="rmv-margin">
 		<div class="topo">
 			<h2 class="red-text rmv-margin">NEFTLIX</h2>
 			<div class="botoes">
@@ -40,35 +42,47 @@
 	</header>
 <main>
 	<div class="caroussel black">
+		<i class="material-icons white-text" onclick="movEsq()">keyboard_arrow_left</i>
 		<div class="content row">
-			<div class="col l2">
+			<div class="col l2 m2 s2">
 			<div class="medium card ">
 				<img src="img/HxH.jpg">
 			</div>
 		</div>
-		<div class="col l2">
+		<div class="col l2 m2 s2">
 			<div class="medium card ">
 				<img src="img/DBS.jpg">
 			</div>
 		</div>
-		<div class="col l2">
+		<div class="col l2 m2 s2">
 			<div class="medium card ">
 				<img src="img/FMA.jpeg">
 			</div>
 		</div>
-		<div class="col l2">
+		<div class="col l2 m2 s2">
 			<div class="medium card ">
 				<img src="img/naruto.jpg">
 			</div>
 		</div>
-		<div class="col l2">
+		<div class="col l2 m2 s2">
 			<div class="medium card ">
 				<img src="img/OP.jpeg">
 			</div>
 		</div>
 		</div>
-
+		<i class="material-icons white-text">keyboard_arrow_right</i>
 	</div>
+
+	<div class="devices black center row">
+		<div class="col l6 m10 s12 pull-m1 text">
+			<p class="white-text title">Assista quando quiser.</p>
+			<p class="white-text">Assista no tablet, celular, smarTV ou notebook sem pagar a mais por isso.</p>
+		</div>
+		<div class="col l6 m10 s12 pull-m1">
+		<img src="img/dispositivos.png">
+	</div>
+	</div>
+	
 </main>
 
 <footer>

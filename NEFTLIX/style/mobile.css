@@ -1,0 +1,41 @@
+@media (max-width: 1000px){
+	header{
+		height: 46em;
+	}
+	main .content {
+		margin: 10px;
+		width: 300%;
+	}
+	main .devices {
+		box-sizing: border-box;
+		height: 60vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	main .devices img{
+		height: 100%;
+		margin-top: 10px;
+	}
+	main .devices .text{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 600px){
+	main .content {
+		margin: 10px;
+		width: 460%;
+	}
+	main .devices {
+		height: 60vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	footer .content div p{
+	flex-basis: 25vw;
+}
+}
